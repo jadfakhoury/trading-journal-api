@@ -62,6 +62,7 @@
     <Folder Include="DB Struct" />
     <Folder Include="dbo\Users" />
     <Folder Include="dbo\Common" />
+    <Folder Include="dbo\Identity" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DB Struct\Trading Journal DB Struct.xlsx" />
@@ -70,6 +71,14 @@
   <ItemGroup>
     <Build Include="dbo\Users\UserDetails.sql" />
     <Build Include="dbo\Common\Country.sql" />
+    <Build Include="dbo\Identity\AspNetUserTokens.sql" />
+    <Build Include="dbo\Identity\AspNetUsers.sql" />
+    <Build Include="dbo\Identity\AspNetUserRoles.sql" />
+    <Build Include="dbo\Identity\AspNetUserLogins.sql" />
+    <Build Include="dbo\Identity\AspNetUserClaims.sql" />
+    <Build Include="dbo\Identity\AspNetRoles.sql" />
+    <Build Include="dbo\Identity\AspNetRoleClaims.sql" />
+    <Build Include="dbo\Identity\__EFMigrationsHistory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TradingJournalDB.refactorlog" />
