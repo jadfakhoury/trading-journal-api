@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingJournalAPI", "Tradin
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TradingJournalDB", "TradingJournalDB\TradingJournalDB.sqlproj", "{B8187D50-E7B6-4C48-9EBF-151E320157F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingJournalModels", "TradingJournalModels\TradingJournalModels.csproj", "{B99E261B-75D8-43D8-9067-6D5C4B6C8162}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingJournalModels", "TradingJournalModels\TradingJournalModels.csproj", "{B99E261B-75D8-43D8-9067-6D5C4B6C8162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
